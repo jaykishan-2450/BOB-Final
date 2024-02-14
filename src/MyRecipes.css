@@ -1,0 +1,25 @@
+.main{
+    margin-left: 15vw;
+    background-image: linear-gradient(120deg,red,yellow,orange);
+    
+}
+
+.logo{
+    margin: 0px 0px 2vw;
+    width: 100vw;
+    /* background-color: red; */
+}
+.logo img{
+    height: 30vh;
+    width: 25vw;
+    margin-left: 20vw;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.logo img:hover{
+    transform: scale(0.95);
+    transition-duration: 1.1s;
+    transition-behavior: smooth;
+    box-shadow:10px 10px  grey ;
+}
